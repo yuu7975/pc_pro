@@ -1,0 +1,59 @@
+body {
+    color: #333333;
+}
+
+#page {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.pageTitle {
+    font-size: 26px;
+    color: #349FA6;
+    background-color: #F2F2E5;
+    margin-bottom: 30px;
+}
+
+.typeA {
+    font-size: 18px;
+    color: #349FA6;
+    border-bottom: solid 1px #349FA6;
+    padding-top: 15px;
+}
+
+.typeB {
+    font-size: 16px;
+    border-left: solid 7px #349FA6;
+    background-color: #F2F2E5;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+a {
+    color:#FF0000;
+}
+
+a:hover {
+    color: #00FF00;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul.outside li {
+    list-style-image: url("../image/ico_sample.png");
+}
+
+table {
+    font-size: 16px;
+    border: 1px solid #34F9FC;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th,
+table td {
+    border: 1px solid #349FA6;
+    padding: 5px 10px;
+}

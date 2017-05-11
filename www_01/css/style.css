@@ -1,0 +1,27 @@
+body {
+    color: #333333;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.pageTitle {
+    font-size: 26px;
+    color: #349FA6;
+    background-color: #F2F2E5;
+}
+
+.typeA {
+    font-size: 18px;
+    color: #FF0000;
+    border-bottom: solid 1px #349FA6;
+}
+
+.typeB {
+    font-size:16px;
+}

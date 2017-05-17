@@ -1,0 +1,17 @@
+#pageBody {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#pageBody .mainVisualText ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#pageBody .mainVisualText ul li{
+    position: relative;
+}
+h1 {
+    font-size: 12px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>jQueryでスライドさせる</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.bxslider/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="js/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        $(document).ready(function() {
+            $('.bxslider').bxSlider({
+                auto: true,
+                speed: 1000,
+                pause: 4000
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="pageBody">
+    <ul class="bxslider">
+        <li>
+            <div class="mainVisualText">
+                <h1>背景画像01</h1>
+                <img src="image/background_01.jpg" width="980" height="500" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="mainVisualText">
+                <h1>背景画像02</h1>
+                <img src="image/background_02.jpg" width="980" height="500" alt="">
+            </div>
+        </li>
+        <li>
+            <div class="mainVisualText">
+                <h1>背景画像03</h1>
+                <img src="image/background_03.jpg" width="980" height="500" alt="">
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
